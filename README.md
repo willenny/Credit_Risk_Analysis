@@ -45,7 +45,7 @@ Instead of using a bulleted list to describe the balanced/imbalanced accuracy sc
     - Recall: 93/(93 + 8) = 0.92
   
 ## Summary 
-There is a summary of the results (2 pt)
-There is a recommendation on which model to use, or there is no recommendation with a justification
 - Both Oversampling methods, Naive Random Oversampling and SMOTE Oversampling, had similar balanced accuracy scores of 0.66. SMOTEEN, which begins with SMOTE Oversampling also has a similar balancaed accuracy score of 0.64. It appears that using Oversampling does not result in accurate results. Undersampling proved to be worse with a balanced accuracy score of 0.54. The Easy Ensemble AdaBoost Classifier had the highest balanced accuracy score of 0.93. 
+
+### Recommendation
 - A model that sequentially focuses on errors and repeats the process in the next model allows for the greatest accuracy. Also, the model that has the largest recall allows for the least amount of true negatives to be overlooked. In this case, I would recommend using the Easy Ensemble AdaBoost Classifier.
